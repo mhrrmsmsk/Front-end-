@@ -1,2 +1,2 @@
-# Front-end-
+# Front-end
 Front-end course exercises
