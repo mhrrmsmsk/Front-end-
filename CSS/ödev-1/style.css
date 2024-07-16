@@ -1,0 +1,42 @@
+
+li{
+    text-align: center;
+}
+.nav-bar-1{
+    text-align: center;
+margin: auto 20px auto;
+}
+.nav-bar{
+    text-align: center;
+margin: auto 20px auto;
+}
+.nav-bar >h1{
+    text-align: center;
+    color: rgb(154, 24, 24);
+}
+ h2{
+    color: purple;
+}
+.main-content > h4{
+    text-align: center;
+    color: gold;
+}
+.main-content{
+    text-align: center;
+}
+.product-content{
+    text-align: center;
+}
+.main-content > ul{
+    text-align: center;
+    justify-content: center; /* Yatayda ortalama */
+    list-style-type: none;
+}
+.card > img{
+    text-align: center;
+    height: 200px;
+    width: auto;
+}
+.about-content>h3{
+    color: gold;
+}

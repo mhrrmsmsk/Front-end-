@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google!</title>
+    <style>
+        body {
+            background-color: #FFFFFF;
+            background-image: url('http://www.google.com/alpha.jpg');
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .icon img {
+            width: 351px;
+            height: 113px;
+        }
+        .content {
+            width: 90%;
+            margin: 0 auto;
+        }
+        .content-top {
+            background-color: #EEEEEE;
+            
+        }
+        .content-bottom {
+            display: flex;
+            justify-content: space-between;
+            background-color: #7EE5DA;
+            
+        }
+        .content-left, .content-center, .content-right {
+            flex: 1;
+            margin: 0 5px;
+            background-color: #70CCC2;
+            
+        }
+        .content-center {
+            background-color: #70CCC2;
+        }
+        .content-right {
+            background-color: #62B3AA;
+        }
+        a {
+            color: #0000FF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="icon">
+        <img src="google.jpg" alt="Google!">
+    </div>
+    <div class="content">
+        <div class="content-top">
+            <p>Search the web using Google!</p>
+            <input type="text" name="q" size="40"><br>
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm feeling lucky">
+        </div>
+        <div class="content-bottom">
+            <div class="content-left">
+                <p>Special Searches</p>
+                <a href="http://www.google.com/stanford">Stanford Search</a><br>
+                <a href="http://www.google.com/linux">Linux Search</a><br>
+            </div>
+            <div class="content-center">
+                <a href="help.html">Help!</a><br>
+                <a href="about.html">About Google!</a><br>
+                <a href="company.html">Company Info</a><br>
+                <a href="stickers.html">Google! Logos</a><br>
+            </div>
+            <div class="content-right">
+                <p>Get Google! updates monthly:</p>
+                <input type="text" name="emailaddr" value="your e-mail"><br>
+                <input type="submit" value="Subscribe"><br>
+                <a href="http://www.findmail.com/list/google-friends/">Archive</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy;1998 Google Inc.</p>
+    </div>
+</body>
+</html>
