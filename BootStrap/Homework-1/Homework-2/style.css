@@ -1,0 +1,94 @@
+body {
+  padding-top: 54px; /* Navbar yüksekliğinden ötürü padding */
+  background-color: #fafafa; /* Instagram arka plan rengi */
+}
+
+.navbar {
+  height: 54px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Diğer içeriklerin üstünde kalmasını sağlar */
+}
+
+.navbar .logo {
+  margin-left: 192px;
+}
+
+.navbar .search {
+  display: flex;
+  justify-content: center;
+  margin-left: 5px;
+}
+
+input.empty {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  background-color: #FAFAFA;
+}
+
+::placeholder {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  background: url('assets/search-icon.png') no-repeat;
+  background-position: 40%;
+  background-size: 6%;
+}
+
+.menu a {
+  margin-left: 5px;
+  margin-top: 2px;
+}
+
+@media (max-width: 576px) {
+  .menu {
+    display: none;
+  }
+}
+
+.content {
+  margin-top: 2px;
+  margin-left: 4%;
+}
+
+.middlearea {
+  max-height: 200px !important; /* Önemli! Diğer stilleri geçersiz kılar */
+}
+
+.card-body .three-dots {
+  text-align: right; /* Üç noktayı sağa alır */
+}
+
+.card-footer, .card-header {
+  background-color: white; /* Beyaz arka plan */
+}
+
+.btn-like, .btn-comment, .btn-share {
+  border: none; /* Border'ları kaldırır */
+}
+
+.bookmark-icon {
+  margin-left: 7px; /* Bookmark ikonunun offset'i */
+}
+
+.rightpanel {
+  background-color: white;
+  border: none;
+}
+
+.stickysidebar {
+  position: sticky;
+  top: 0;
+}
+
+.rightpanellinks {
+  text-align: right;
+}
+
+.comment-text {
+  text-align: right; /* Yorum paylaş metnini sağa alır */
+}
